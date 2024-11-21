@@ -10,3 +10,5 @@ add_custom_target(version
                    -P ${CMAKE_SOURCE_DIR}/GenerateVersionHeader.cmake
   )
 add_dependencies(foobar version)
+message("LOOK version MESSAGE 1" ${version})
+message(version " LOOK version MESSAGE 2")
