@@ -1,4 +1,4 @@
-#include "../SomeProject_VERSION.h"
+#include "../@PROJECT_NAME@_VERSION.h"
 #include "funcGetVersion.h"
 #include <stdio.h>
 
