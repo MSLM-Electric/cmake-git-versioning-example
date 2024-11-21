@@ -22,8 +22,5 @@ endif()
 
 message("this message from .cmake:" ${PROJECT_NAME})
 
-add_definitions(-D${PROJECT_NAME}_VERSION)
-
 configure_file(${SRC} ${DST} @ONLY)
-get_filename_component(CONFIGURERCMAKE_DEFINES_DIR "${CMAKE_CURRENT_LIST_FILE}" DIRECTORY)
-configure_file(${CONFIGURERCMAKE_DEFINES_DIR}/generateruntest_file.c.in ${CONFIGURERCMAKE_DEFINES_DIR}/funcGetVersion.c)
+configure_file(${SHOWFUNC_SRC} ${SHOWFUNC_DST} @ONLY)

@@ -1,4 +1,3 @@
-#include "../foobar_version.h"
 #include "funcGetVersion.h"
 
 int main(void) {
