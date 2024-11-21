@@ -1,7 +1,14 @@
 Project Versioning Training with CMake and Git
 ==============================================
+First of all build the project once by doing:
+```
+(in case of Visual Studio)
+mkdir build
+cd build
+cmake ..
+```
 
-Done:
+What I've Done:
 ```
 just builded and launched the project. What happened?:
 The debugger gone to error on main.c cause the unexisted define "FOOBAR_VERSION".
@@ -22,10 +29,14 @@ git tag -a v0.0.1-train -m "train first beta tag"
 ```
 Now I just commit and push.
 ```
-(oops. I've forgot push wit tag.)
+(oops. I've forgot push with tag.)
 (The I do:)
 git push origin train --tags
 
+```
+```
+Note! The auto generatings of new version define tags (dirty, or any else) happens only on foobar_version placed
+on builded project folder. In my case build/foobar_version.h
 ```
 
 

@@ -1,4 +1,4 @@
-#include "foobar_version.h"
+#include "build/foobar_version.h"
 #include <stdio.h>
 
 int main(void) {
