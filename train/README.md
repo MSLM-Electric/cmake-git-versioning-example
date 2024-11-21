@@ -20,7 +20,13 @@ git tag -a v0.0.1-train -m "train first beta tag"
 (Builder exported new define with string "v0.0.1-train-dirty")
 (And also it exported on build/foobar_version.h the same define like on above)
 ```
+Now I just commit and push.
+```
+(oops. I've forgot push wit tag.)
+(The I do:)
+git push origin train --tags
 
+```
 
 
 ## License
