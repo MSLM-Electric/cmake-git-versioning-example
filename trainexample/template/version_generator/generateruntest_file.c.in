@@ -1,0 +1,8 @@
+#include "../SomeProject_VERSION.h"
+#include "funcGetVersion.h"
+#include <stdio.h>
+
+int GetShowVersion(void) {
+    printf("%s\n", @PROJECT_NAME@_VERSION);
+    return 0;
+}
